@@ -53,7 +53,8 @@ namespace Lesson3
 
 			/*«Морской бой»: вывести на экран массив 10х10, состоящий из символов X и O, 
 			 * где Х — элементы кораблей, а О — свободные клетки.*/
-			
+
+
 			char[,] marinaBattle = {
 				{ 'O', 'O','O','O','X','O','O','O','O','O'},
 				{ 'O', 'X','O','O','X','O','X','X','X','X'},
@@ -113,6 +114,7 @@ namespace Lesson3
 						
 						break;
 				}
+
 				for (int k = 0; k < 10; k++)
 				{
 					for (int m = 0; m < 10; m++)
@@ -129,7 +131,7 @@ namespace Lesson3
 				}
 			}
 
-			for (int i = 0; i < 10; i++)
+			for (int i = 0; i < 10; i++) 
 			{
 				for (int j = 0; j < 10; j++)
 				{
