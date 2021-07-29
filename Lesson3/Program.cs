@@ -7,7 +7,6 @@ namespace Lesson3
         static void Main(string[] args)
         {
 			/*1.Написать программу, выводящую элементы двумерного массива по диагонали.*/
-
 			/*int lengrhArr = 5;
 			int[,] arr = new int[lengrhArr, lengrhArr];
 			for (int i = 0; i < arr.GetLength(0); i++)
@@ -25,7 +24,6 @@ namespace Lesson3
 
 			/*2.Написать программу «Телефонный справочник»: создать двумерный массив 5х2, хранящий список телефонных контактов: 
 			 * первый элемент хранит имя контакта, второй — номер телефона/ email.*/
-
 			/* string[,] phoneListз = {
 				{ "Вася", "89993564233/sss@yandex.ru" },
 				{ "Петя", "89993712345/shes@yandex.ru" },
@@ -50,10 +48,8 @@ namespace Lesson3
 				Console.Write($"{p[i]} ");
 			}*/
 
-
 			/*«Морской бой»: вывести на экран массив 10х10, состоящий из символов X и O, 
 			 * где Х — элементы кораблей, а О — свободные клетки.*/
-
 
 			char[,] marinaBattle = {
 				{ 'O', 'O','O','O','X','O','O','O','O','O'},
@@ -70,7 +66,6 @@ namespace Lesson3
 			
 			char[,] marinaField = new char[10, 10];
 			char[,] marinaCheck = new char[10, 10];
-
 			for (int i = 0; i < 10; i++)
 			{
 				Console.WriteLine("Введите координаты корабля цифру");
@@ -139,6 +134,7 @@ namespace Lesson3
 				}
 				Console.WriteLine();
 			}
+
 
 		}
     }
